@@ -1,9 +1,10 @@
 {
-  "extends": ["airbnb-typescript"],
+  "extends": ["airbnb-typescript", "airbnb/hooks"],
   "parserOptions": {
     "project": "./tsconfig.json"
   },
   "rules": {
-    "@typescript-eslint/semi": ["error", "never"]
+    "@typescript-eslint/semi": ["error", "never"],
+    "max-len": ["error", { "code": 80 }]
   }
 }

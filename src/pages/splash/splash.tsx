@@ -8,7 +8,7 @@ function Splash() {
     setTimeout(() => {
       history.push('home')
     }, 3000)
-  }, [])
+  }, [history])
 
   return (
     <div className="App">
